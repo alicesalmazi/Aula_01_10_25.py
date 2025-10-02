@@ -15,3 +15,12 @@ print(r)
 
 soma = lambda a, b: a + b
 print(soma(3, 5))
+
+x = lambda x: x ** 2
+print(x(8))
+
+y =lambda parametro: parametro * (2 if parametro % 2 == 0 else 3)
+print(y(7))
+
+loop = lambda lista: sum(lista)
+print(loop([1, 2, 3, 4, 5]))
