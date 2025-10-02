@@ -24,3 +24,6 @@ print(y(7))
 
 loop = lambda lista: sum(lista)
 print(loop([1, 2, 3, 4, 5]))
+
+resultado = list(map(lambda x: x * 2, a)) # sendo 'a' lista
+print(resultado)
